@@ -78,7 +78,7 @@ const ExpenseList = ({ refresh, triggerRefresh }) => {
             <div>
               <p className="text-gray-700 font-medium">{expense.category}</p>
               <p className="text-gray-500">
-                ${expense.amount} -{" "}
+                ₹{expense.amount} -{" "}
                 {new Date(expense.date).toLocaleDateString()}
                 {expense.description && ` - ${expense.description}`}
               </p>
