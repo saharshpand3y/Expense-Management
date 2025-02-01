@@ -1,4 +1,4 @@
-# expense-tracket
+# expense-tracker
 
 To install dependencies:
 
